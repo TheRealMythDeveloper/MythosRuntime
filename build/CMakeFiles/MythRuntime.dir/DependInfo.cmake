@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/workspaces/MythosRuntime/src/Engine.cpp" "CMakeFiles/MythRuntime.dir/src/Engine.cpp.o" "gcc" "CMakeFiles/MythRuntime.dir/src/Engine.cpp.o.d"
+  "/workspaces/MythosRuntime/src/GamePackage.cpp" "CMakeFiles/MythRuntime.dir/src/GamePackage.cpp.o" "gcc" "CMakeFiles/MythRuntime.dir/src/GamePackage.cpp.o.d"
   "/workspaces/MythosRuntime/src/main.cpp" "CMakeFiles/MythRuntime.dir/src/main.cpp.o" "gcc" "CMakeFiles/MythRuntime.dir/src/main.cpp.o.d"
   )
 

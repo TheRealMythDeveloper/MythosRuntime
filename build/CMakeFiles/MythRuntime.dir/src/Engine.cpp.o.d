@@ -149,4 +149,5 @@ CMakeFiles/MythRuntime.dir/src/Engine.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /workspaces/MythosRuntime/src/Engine.h
+ /workspaces/MythosRuntime/src/Engine.h \
+ /workspaces/MythosRuntime/src/GamePackage.h

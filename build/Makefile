@@ -153,6 +153,30 @@ src/Engine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MythRuntime.dir/build.make CMakeFiles/MythRuntime.dir/src/Engine.cpp.s
 .PHONY : src/Engine.cpp.s
 
+src/GamePackage.o: src/GamePackage.cpp.o
+.PHONY : src/GamePackage.o
+
+# target to build an object file
+src/GamePackage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MythRuntime.dir/build.make CMakeFiles/MythRuntime.dir/src/GamePackage.cpp.o
+.PHONY : src/GamePackage.cpp.o
+
+src/GamePackage.i: src/GamePackage.cpp.i
+.PHONY : src/GamePackage.i
+
+# target to preprocess a source file
+src/GamePackage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MythRuntime.dir/build.make CMakeFiles/MythRuntime.dir/src/GamePackage.cpp.i
+.PHONY : src/GamePackage.cpp.i
+
+src/GamePackage.s: src/GamePackage.cpp.s
+.PHONY : src/GamePackage.s
+
+# target to generate assembly for a file
+src/GamePackage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MythRuntime.dir/build.make CMakeFiles/MythRuntime.dir/src/GamePackage.cpp.s
+.PHONY : src/GamePackage.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/Engine.o"
 	@echo "... src/Engine.i"
 	@echo "... src/Engine.s"
+	@echo "... src/GamePackage.o"
+	@echo "... src/GamePackage.i"
+	@echo "... src/GamePackage.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

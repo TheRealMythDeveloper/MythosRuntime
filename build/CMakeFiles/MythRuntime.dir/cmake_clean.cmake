@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MythRuntime.dir/src/Engine.cpp.o"
   "CMakeFiles/MythRuntime.dir/src/Engine.cpp.o.d"
+  "CMakeFiles/MythRuntime.dir/src/GamePackage.cpp.o"
+  "CMakeFiles/MythRuntime.dir/src/GamePackage.cpp.o.d"
   "CMakeFiles/MythRuntime.dir/src/main.cpp.o"
   "CMakeFiles/MythRuntime.dir/src/main.cpp.o.d"
   "MythRuntime"
